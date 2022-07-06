@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
     justify-items: center;
     align-items: center;
     min-height: 670px;
-    background-image: url(images/banner-1.png);
+    background-image: url(../images/banner-1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
