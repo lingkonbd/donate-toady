@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
+    border: 0px solid;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .hero-banner-area{
@@ -35,7 +40,6 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
 }
 .hero-banner-content{
-    text-align: center;
     max-width: 826px;
     margin: 0 auto;
 }
@@ -50,4 +54,48 @@ h1, h2, h3, h4, h5, h6{
     font-size: 18px;
     line-height: 28px;
     margin: 0 0 30px;
+}
+
+.donate-price-content{
+    max-width: 690px;
+    margin: 0 auto;
+}
+.donate-price-content h2{
+    font-size: 45px;
+    line-height: 54px;
+    margin: 0 0 15px;
+}
+.donate-price-content p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.donation-price-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 770px;
+    margin: 50px auto;
+}
+
+.donate-price{
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+.donate-price.active{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
 }
