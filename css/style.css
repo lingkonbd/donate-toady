@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 0 30px;
 }
 
+.donate-today-area{
+    margin: 130px 0;
+}
+
 .donate-price-content{
     max-width: 690px;
     margin: 0 auto;
@@ -81,10 +85,10 @@ h1, h2, h3, h4, h5, h6{
 
 .donate-price{
     width: 135px;
-    height: 123px;
+    height: 120px;
     background-color: #FAFAFA;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 26px;
     color: #707070;
     display: flex;
     align-items: center;
@@ -98,4 +102,32 @@ h1, h2, h3, h4, h5, h6{
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
+}
+
+.donate-form{
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate-form input[type="text"]{
+    border-width:0px 0px 1px 0px;
+    border-color:#DADADA ;
+    padding: 10px;
+    display: block;
+    color: #B3B3B3;
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.donate-form input[type="text"]:active, 
+.donate-form input[type="text"]:focus{
+    outline: none;
+    border-color: #FF5959;
+    color: #000;
+}
+.donate-form input[type="submit"]{
+    cursor: pointer;
 }
