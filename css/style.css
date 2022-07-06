@@ -173,3 +173,46 @@ h1, h2, h3, h4, h5, h6{
     line-height: 24px;
     color: #707070;
 }
+
+.our-subscribtion-area{
+    margin-bottom: 100px;
+}
+
+.subscribtion-form {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    align-items: center;
+    background: #FFF4D6;
+    height: 200px;
+    margin: 50px auto 0;
+}
+
+.subscribtion-form input[type="email"] {
+    border: 1px solid transparent;
+    height: 48px;
+    background: #D9D9D9;
+    width: 275px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    color: #AA9F9F;
+}
+.subscribtion-form input[type="email"]:focus {
+    outline: none;
+    border-color: #FF5959;
+    color: #000;
+}
+.subscribtion-form input[type="submit"] {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid transparent;
+    color: #fff;
+    height: 48px;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -4px;
+    cursor: pointer;
+}
