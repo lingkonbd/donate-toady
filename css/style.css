@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
     border: 0px solid;
 }
 
+
 .text-center{
     text-align: center;
 }
@@ -136,14 +137,12 @@ h1, h2, h3, h4, h5, h6{
 .our-donate-plan-area {
     margin-bottom: 130px;
 }
-
 .donate-plan-featured {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-
 .single-plan-featured {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
@@ -167,17 +166,29 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-
 .single-plan-featured p {
     font-size: 16px;
     line-height: 24px;
     color: #707070;
 }
 
-.our-subscribtion-area{
-    margin-bottom: 100px;
+.our-donation-depended-area {
+    background-image: url(../images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 70px 0;
+    background-size: 48% 100%;
 }
+.donate-title.our-donation-depended-text{
+    max-width: 50%;
+    margin: 0 0;
+}
+.donate-title.our-donation-depended-text .btn-primary{margin-top: 30px;}
 
+
+.our-subscribtion-area{
+    margin: 100px 0;
+}
 .subscribtion-form {
     display: flex;
     justify-content: center;
@@ -187,7 +198,6 @@ h1, h2, h3, h4, h5, h6{
     height: 200px;
     margin: 50px auto 0;
 }
-
 .subscribtion-form input[type="email"] {
     border: 1px solid transparent;
     height: 48px;
