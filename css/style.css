@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6{
     max-width: 1130px;
     margin: 0 auto;
 }
+
 .btn-primary{
     display: inline-block;
     padding: 16px 20px;
@@ -60,16 +61,16 @@ h1, h2, h3, h4, h5, h6{
     margin: 130px 0;
 }
 
-.donate-price-content{
+.donate-title{
     max-width: 690px;
     margin: 0 auto;
 }
-.donate-price-content h2{
+.donate-title h2{
     font-size: 45px;
     line-height: 54px;
     margin: 0 0 15px;
 }
-.donate-price-content p{
+.donate-title p{
     font-size: 18px;
     line-height: 28px;
     color: #707070;
@@ -130,4 +131,45 @@ h1, h2, h3, h4, h5, h6{
 }
 .donate-form input[type="submit"]{
     cursor: pointer;
+}
+
+.our-donate-plan-area {
+    margin-bottom: 130px;
+}
+
+.donate-plan-featured {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.single-plan-featured {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    max-width: 360px;
+    min-height: 352px;
+    box-sizing: border-box;
+    padding: 63px 22px 54px;
+    flex: 0 0 auto;
+    width: 33.333%;
+}
+.single-plan-featured.pink-bg{
+    background: rgba(255, 89, 89, 0.1);
+}
+.single-plan-featured.antiquewhite-bg{
+    background: #FFF4D6;
+}
+.single-plan-featured h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.single-plan-featured p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
 }
