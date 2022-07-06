@@ -216,3 +216,20 @@ h1, h2, h3, h4, h5, h6{
     margin-left: -4px;
     cursor: pointer;
 }
+
+.footer{
+    background: #0B0D17;
+    padding: 45px 0;
+}
+.footer h2 {
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    letter-spacing: 0.5px;
+    margin: 0 0 20px;
+}
+.footer p{
+    color: #D9DBE1;
+    margin: 0;
+}
